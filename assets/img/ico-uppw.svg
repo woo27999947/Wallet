@@ -1,0 +1,28 @@
+<svg width="24" height="33" viewBox="0 0 24 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>ico-uppw</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1205 -527)">
+<g id="ico-uppw">
+<g id="Ellipse 6.1">
+<use xlink:href="#path0_stroke" transform="translate(1209 528)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse 6">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(1205 536)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(1205 536)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Union">
+<use xlink:href="#path3_fill" transform="translate(1214 544)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 0.5 7.72534C 0.5 3.75122 3.84126 0.5 8 0.5L 8 -0.5C 3.32219 -0.5 -0.5 3.16629 -0.5 7.72534L 0.5 7.72534ZM 8 0.5C 12.1587 0.5 15.5 3.75122 15.5 7.72534L 16.5 7.72534C 16.5 3.16629 12.6778 -0.5 8 -0.5L 8 0.5ZM 15.5 7.72534C 15.5035 8.83651 15.2599 9.83662 14.798 10.7817L 15.6976 11.2183C 16.2009 10.1749 16.4965 8.9554 16.5 7.72534L 15.5 7.72534ZM 1.20199 10.7817C 0.740147 9.83662 0.496454 8.83651 0.5 7.72534L -0.5 7.72534C -0.496454 8.9554 -0.200897 10.1749 0.302357 11.2183L 1.20199 10.7817Z"/>
+<path id="path1_fill" d="M 24 12C 24 18.6274 18.6274 24 12 24C 5.37258 24 0 18.6274 0 12C 0 5.37258 5.37258 0 12 0C 18.6274 0 24 5.37258 24 12Z"/>
+<path id="path2_stroke_2x" d="M 23 12C 23 18.0751 18.0751 23 12 23L 12 25C 19.1797 25 25 19.1797 25 12L 23 12ZM 12 23C 5.92487 23 1 18.0751 1 12L -1 12C -1 19.1797 4.8203 25 12 25L 12 23ZM 1 12C 1 5.92487 5.92487 1 12 1L 12 -1C 4.8203 -1 -1 4.8203 -1 12L 1 12ZM 12 1C 18.0751 1 23 5.92487 23 12L 25 12C 25 4.8203 19.1797 -1 12 -1L 12 1Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 4 5.82928C 5.16516 5.41748 6 4.30621 6 3C 6 1.34314 4.65686 0 3 0C 1.34314 0 0 1.34314 0 3C 0 4.30621 0.834839 5.41748 2 5.82928L 2 8C 2 8.55231 2.44775 9 3 9C 3.55225 9 4 8.55231 4 8L 4 5.82928Z"/>
+</defs>
+</svg>
