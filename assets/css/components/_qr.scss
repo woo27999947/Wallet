@@ -1,0 +1,61 @@
+@import "../abstracts/var";
+@import "../abstracts/mixins";
+@import "../abstracts/placeholders";
+@import "../abstracts/functions";
+
+#QR-Code {
+  position: absolute;
+  width: 100%;
+  margin-top: 0;
+  padding: 56px 0 16px 0;
+  bottom: -360px;
+  transition: 300ms;
+  left: 0;
+  z-index: 2;
+  // @include bg-gradient;
+  background: $PrimaryDarken;
+  .panel{
+    margin: 0;
+  }
+}
+
+
+$QRbtnSize: 72px;  //frame size
+$QRiconSize: $QRbtnSize - 32px; //icon size
+#QRCodeBtn {
+  position: absolute;
+  top: -144px;
+  left: 50%;
+  @include middle($MiddleX);
+  width: $QRbtnSize;
+  height: $QRbtnSize;
+  border-radius: $QRbtnSize / 2;
+  background-color: $PrimaryDarken;
+  padding: ($QRbtnSize - $QRiconSize) / 2;
+  transition: 300ms;
+  img{
+    width: $QRiconSize;
+    display: block;
+    // margin: 0 auto;
+  }
+}
+
+#QR-Code.popup{
+  bottom: 40px;
+  #QRCodeBtn{
+    top:($QRbtnSize / 2) * -1;
+  }
+}
+
+$CamSize: 288px;
+
+.well {
+  height: $CamSize;
+  width: $CamSize;
+  margin: 0 auto;
+}
+
+.well canvas {
+  height: $CamSize !important;
+  width: $CamSize !important;
+}

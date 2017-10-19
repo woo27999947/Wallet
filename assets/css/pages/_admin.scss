@@ -1,0 +1,117 @@
+@import "../abstracts/var";
+@import "../abstracts/mixins";
+@import "../abstracts/placeholders";
+@import "../abstracts/functions"; // admin home php start
+
+.admin-home-table {
+  color: $WH;
+
+  table {
+    font-size: 12px;
+  }
+
+  a:hover {
+    color: $WH;
+  }
+}
+
+.wallet-link {
+  margin: 16px 0;
+  display: block;
+  color: $WH;
+  font-size: 15px;
+
+  img {
+    float: left;
+  }
+
+  span {
+    font-weight: bold;
+    float: left;
+    margin-left: 12px;
+  }
+
+  &:hover {
+    color: $WHsub;
+  }
+}
+// admin home table
+
+.table-hidden {
+  overflow-x: auto;
+}
+
+#userlist {
+  min-width: 638px;
+
+  thead {
+    background-color: rgba(0,0,0,0.05);
+    border: none;
+  }
+
+  tbody tr td,
+  thead tr td {
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,0.3) !important;
+  }
+}
+// admin home php end
+// admin info php start
+
+#userInfoTable {
+  font-size: 12px;
+  background-color: rgba(0,0,0,0.05);
+
+  thead {
+    background-color: rgba(0,0,0,0.05);
+    border: none;
+  }
+
+  tbody tr td,
+  thead tr td {
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,0.3) !important;
+
+    &:first-child {
+      border-right: 1px solid rgba(255,255,255,0.3);
+    }
+  }
+}
+
+.userinfo-wrap {
+  margin-top: 24px;
+
+  p {
+    font-size: 18px;
+    font-weight: $Bold;
+  }
+}
+
+#alist {
+  font-size: 12px;
+
+  thead {
+    border: none;
+  }
+
+  tbody tr td,
+  thead tr td {
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,0.3) !important;
+  }
+}
+
+#txlist {
+  font-size: 12px;
+
+  thead {
+    border: none;
+  }
+
+  tbody tr td,
+  thead tr td {
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,0.3) !important;
+  }
+}
+// admin info php end

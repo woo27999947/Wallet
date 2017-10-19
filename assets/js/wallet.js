@@ -56,8 +56,6 @@ $(document).ready(function() {
     $('#newaddressWrap').removeClass('call-slice');
     $('#transWrap').removeClass('call-slice');
   });
-
-
   $("#QRCodeBtn").click(function() {
     if ($('#QR-Code').hasClass('popup')) {
       $('#QR-Code').removeClass('popup');

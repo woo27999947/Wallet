@@ -1,0 +1,32 @@
+@import "../abstracts/var";
+@import "../abstracts/mixins";
+@import "../abstracts/placeholders";
+@import "../abstracts/functions";
+
+.twofa_bar {
+  background-color: $PrimaryDarken;
+  font-size: 13px;
+  width: 100%;
+  padding: 68px 0 12px 0;
+  // position: fixed;
+  // top: 56px;
+  transition: 300ms;
+  z-index: 2;
+
+  button a {
+    color: $WH;
+    font-size: 13px;
+    padding: 0 8px;
+  }
+}
+
+.twofa_bar.open-twofa{
+  top: -28px;
+}
+
+.btn-twofa-close {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}

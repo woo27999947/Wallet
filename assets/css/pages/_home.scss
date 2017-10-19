@@ -1,0 +1,60 @@
+@import "../abstracts/var";
+@import "../abstracts/mixins";
+@import "../abstracts/placeholders";
+@import "../abstracts/functions";
+
+// 모바일 스크립트용 css start
+
+#indexLoginFrame,
+#indexRegisterFrame {
+  float: left;
+  animation-name: swap;
+  animation-duration: 1100ms;
+  position: relative;
+}
+@media (max-width: 768px) {
+  #indexLoginFrame {
+    display: block;
+  }
+
+  #indexRegisterFrame {
+    display: none;
+  }
+
+  #indexLoginFrame.swap-regi {
+    display: none;
+  }
+
+  #indexRegisterFrame.swap-log {
+    display: block;
+  }
+}
+@keyframes swap {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.swap-loginform,
+.swap-registerform {
+  cursor: pointer;
+  text-align: center;
+  height: 24px;
+  margin-top: 24px;
+
+  p {
+    @include font-style ($WH, $Regular, 14px !important);
+
+    span {
+      color: $Accent;
+    }
+  }
+  @media (min-width:769px) {
+    display: none;
+  }
+}
+// 모바일 스크립트용 css end

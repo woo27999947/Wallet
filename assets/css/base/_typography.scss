@@ -1,0 +1,53 @@
+/// 타이포 관련 변수, 믹스인 전체
+@import "../abstracts/var";
+@import "../abstracts/mixins";
+@import "../abstracts/placeholders";
+@import "../abstracts/functions";
+
+.jumbotron h1 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  @include font-style ($WH, $Bold, 36px);
+}
+
+.form-index {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  color: $WH;
+  text-transform: uppercase;
+}
+
+.alert-txt {
+  font-size: 16px !important;
+  border-radius: 4px;
+  @include font-style (rgb(255,218,23), $Bold, $FontSize);
+}
+
+#pwdmsg {
+  font-size: 13px;
+  color: $Accent !important;
+}
+
+#withdrawmsg {
+  font-size: 13px !important;
+  color: rgb(255,218,23) !important;
+}
+
+#newaddressmsg {
+  font-size: 13px !important;
+  color: $Accent !important;
+}
+
+@media (max-width: 768px) {
+  .jumbotron h1 {
+    font-size: 20px;
+  }
+
+  .form-index {
+    font-size: 15px !important;
+  }
+
+  .alert-txt {
+    font-size: 13px !important;
+  }
+}

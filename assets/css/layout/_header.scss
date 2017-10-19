@@ -1,0 +1,69 @@
+@import "../abstracts/var";
+@import "../abstracts/mixins";
+@import "../abstracts/placeholders";
+@import "../abstracts/functions";
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: $NavH;
+  padding: 0 16px;
+  margin-bottom: 0;
+  border: 0;
+  border-radius: 0;
+  z-index: 4;
+  background-color:$Primary;
+}
+// navbar logo
+.navbar-header {
+  float: left;
+  position: absolute;
+left: 50%;
+transform: $MiddleX;
+}
+
+.navbar-brand {
+  height: $NavH;
+  padding: 16px 0;
+  color: $WH !important;
+  font-weight: bold;
+  transition: 300ms;
+
+  &:hover {
+    color: $WHsub;
+  }
+}
+// navbar logo
+
+.navbar-nav {
+  float: right;
+  margin: 0;
+}
+// language btn
+
+.lan-btn {
+  background-color: transparent;
+  border: 0;
+  float: right;
+  margin: 0;
+  padding: 16px 0;
+  @include font-style ($WH, $Bold, 12px);
+}
+
+.lang-sm:after {
+  color: $BK;
+}
+
+.navbar-nav .open .dropdown-menu {
+  position: absolute;
+  right: 0;
+  top: 48px;
+}
+
+@media (max-width: 767px) {
+  .navbar-nav .open .dropdown-menu {
+    background-color: $WH;
+    left: auto !important;
+  }
+}
+// language btn

@@ -1,0 +1,19 @@
+%shadow-lv1 {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+
+  &:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  }
+}
+// example
+// .box {
+//   @extend %shadow-lv1;
+// }
+// Background image common
+
+%bg-cover {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}

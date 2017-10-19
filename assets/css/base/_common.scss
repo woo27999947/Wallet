@@ -1,0 +1,35 @@
+@import "../abstracts/var";
+@import "../abstracts/mixins";
+@import "../abstracts/placeholders";
+@import "../abstracts/functions";
+// 공통 css가 필요할 경우
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: sans-serif !important;
+  letter-spacing: -0.025em;
+  line-height: 1.5;
+}
+
+::selection{
+  background: $Accent;
+  color: $Primary;
+}
+
+::-moz-selection{
+  background: $Accent;
+  color: $Primary;
+}
+
+a {
+  color: $Accent;
+}
+
+.container-middle {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%) translateY(-28px);
+}

@@ -1,0 +1,28 @@
+// compileOnSave
+// compileOnSave: true
+/// main css file
+@charset 'utf-8';
+
+@import "abstracts/var";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+@import "abstracts/placeholders";
+
+@import "base/reset";
+@import "vendors/bootstrap"; //bootstrap 오버라이드 점보트론 관련 css 다 여기있음
+
+@import "base/common"; //폰트스타일 얼럿텍스트 등
+@import "base/typography"; //폰트스타일 얼럿텍스트 등
+
+@import "layout/header"; // 헤더관련 css 헤더 드롭다운 포함
+@import "layout/twofa";
+
+@import "components/input"; // 인풋관련 css
+@import "components/buttons"; // 버튼관련 css
+@import "components/qr"; // qrcode custom css
+
+@import "pages/home"; // home.php 전용
+@import "pages/wallet"; // wallet.php 전용
+@import "pages/admin"; // wallet.php 전용
+
+@import "layout/footer"; // 푸터 css

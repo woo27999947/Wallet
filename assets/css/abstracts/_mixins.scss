@@ -1,0 +1,51 @@
+/// 폰트스타일 제외 유용한 믹스인은 여기에 추가
+// Font Color, Weight include
+@mixin font-style ($fontColor, $fontWeight, $fontSize) {
+  color: $fontColor;
+  font-weight: $fontWeight;
+  font-size: $fontSize;
+}
+
+// clearfix
+@mixin clearfix {
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+// Middle Transform
+@mixin middle ($translate) {
+  transform: $translate;
+  -o-transform: $translate;
+  -ms-transform: $translate;
+  -moz-transform: $translate;
+  -webkit-transform: $translate;
+}
+
+// Size
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+// Prefix
+@mixin prefix($property, $value, $prefixes: ()) {
+  @each $prefix in $prefixes {
+    -#{$prefix}-#{$property}: $value;
+  }
+  #{$property}: $value;
+}
+
+// Prefix ex
+// .foo {
+//   @include prefix(transform, rotate(90deg), ('webkit', 'ms'));
+// }
+
+@mixin bg-gradient {
+  background: $Primary;
+  background: -webkit-linear-gradient(to top right, $Second,$Accent);
+  background: -o-linear-gradient(to top left, $Second,$Accent);
+  background: -moz-linear-gradient(to top left, $Second,$Accent);
+  background: linear-gradient(to top left, $Second,$Accent);
+}

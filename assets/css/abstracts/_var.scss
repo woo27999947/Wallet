@@ -1,0 +1,62 @@
+/// 폰트스타일 제외 유용한 변수는 여기에 추가
+// Website Color
+$colorOpacity: 1 - 0.46;
+
+$BK: rgba(0, 0 ,0, 0.87) !default;
+$BKsub: rgba($BK, $colorOpacity) !default;
+$WH: rgba(255, 255, 255, 1) !default;
+$WHsub: rgba($WH, $colorOpacity) !default;
+
+// Primary Color
+$Primary: #0F1217;
+$PrimarySub: rgba($Primary, $colorOpacity);
+$PrimaryDarken: darken($Primary, 7%) ;
+
+// Secondary Color
+$Second: #FF9500;
+$SecondSub: rgba($Primary, $colorOpacity);
+$SecondDarken: darken($Second, 7%) ;
+
+// Accent Color
+$Accent: #FDBC00;
+$AccentSub: rgba($Accent, $colorOpacity);
+$AccentDarken: darken($Accent, 7%);
+
+
+$Orange: rgba(255, 171, 64, 1);
+$OrangeSub: rgba($Orange, 0.24);
+$OrangeDarken: darken($Orange, 7%);
+
+$Cyan: rgba(77, 208, 225, 1);
+$CyanSub: rgba($Cyan, 0.24);
+$CyanDarken: darken($Cyan, 7%);
+
+// Noto Sans Weight
+$Regular: 400 !default;
+$Thin: $Regular - 300;
+$Light: $Regular - 100;
+$Medium: $Regular + 100;
+$Bold: $Regular + 200;
+$Black: $Regular + 400;
+// CJK Basic font size
+$FontSize: 15px !default;
+
+// Transform 50%
+$MiddleX: translateX(-50%);
+$MiddleY: translateY(-50%);
+$MiddleXY: translate(-50%, -50%);
+
+// max layout
+$Gutter: 16px !default; //기본 사이값
+$ColumnWidth: 68px; //디자인상 콜럼 가로크기
+$Contain: $ColumnWidth * 12 + $Gutter * 24; //최대 컨테이너 가로크기
+
+// Media query base bootstrap
+$xs: 768px;
+$sm: 992px;
+$md: $Contain;
+
+// Base grid
+$Grid: 8px;
+// Nav bar
+$NavH: 56px;

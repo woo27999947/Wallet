@@ -1,0 +1,46 @@
+@import "../abstracts/var";
+@import "../abstracts/mixins";
+@import "../abstracts/placeholders";
+@import "../abstracts/functions";
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: $WHsub !important;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: $WHsub !important;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: $WHsub !important;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: $WHsub !important;
+}
+
+.form-control {
+  position: relative;
+  float: left;
+  z-index: 1;
+  height: 48px;
+  padding: 6px 0;
+  margin: 8px 0;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid $WH;
+  box-shadow: none;
+  transition: 300ms;
+  @include font-style ($WH, $Regular, 14px);
+}
+
+.form-control:focus, .form-control:active {
+  box-shadow: none;
+  border-bottom: 1px solid $Accent;
+  outline: none;
+}

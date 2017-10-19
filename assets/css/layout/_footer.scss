@@ -1,0 +1,29 @@
+@import "../abstracts/var";
+@import "../abstracts/mixins";
+@import "../abstracts/placeholders";
+@import "../abstracts/functions";
+
+b {
+  background-color: $Primary;
+  position: relative;
+  float: left;
+  // border-top: 1px solid $WHsub;
+  height: 40px;
+  width: 100%;
+  padding: 8px 0;
+  z-index: 2;
+}
+
+center {
+  @include font-style ($WH, $Regular, 14px);
+}
+
+center a {
+  color: $Accent;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+center a:hover {
+  color: $AccentSub;
+}

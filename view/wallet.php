@@ -85,30 +85,38 @@
       </div>
     </div>
 
-    <div class="row onlymobile-walletindex">
-      <div id="pwdform-call" class="col-xs-6">
-        <section>
-          <img src="../assets/img/ico-uppw.svg" />
-          <span>Update Your Password</span>
-        </section>
+    <div class="row onlymobile-walletindex ">
+      <div class="col-xs-6 gutter-r">
+        <div id="pwdform-call">
+          <section>
+            <img src="../assets/img/ico-uppw.svg" />
+            <span>Update Your Password</span>
+          </section>
+        </div>
       </div>
-      <div id="withform-call" class="col-xs-6">
-        <section>
-          <img src="../assets/img/ico-send.svg" />
-          <span>Send Funds</span>
-        </section>
+      <div class="col-xs-6 gutter-l">
+        <div id="withform-call">
+          <section>
+            <img src="../assets/img/ico-send.svg" />
+            <span>Send Funds</span>
+          </section>
+        </div>
       </div>
-      <div id="newaddr-call" class="col-xs-6">
-        <section>
-          <img src="../assets/img/ico-withd.svg" />
-          <span>New Address</span>
-        </section>
+      <div class="col-xs-6 gutter-r">
+        <div id="newaddr-call">
+          <section>
+            <img src="../assets/img/ico-withd.svg" />
+            <span>New Address</span>
+          </section>
+        </div>
       </div>
-      <div id="trans-call" class="col-xs-6">
-        <section>
-          <img src="../assets/img/ico-trans.svg" />
-          <span>Last 10 Transaction</span>
-        </section>
+      <div class="col-xs-6 gutter-l">
+        <div id="trans-call">
+          <section>
+            <img src="../assets/img/ico-trans.svg" />
+            <span>Last 10 Transaction</span>
+          </section>
+        </div>
       </div>
     </div>
 
