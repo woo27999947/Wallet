@@ -30,6 +30,9 @@
   <body>
     <nav class="navbar navbar-default" role="navigation">
 	    <!-- Brand and toggle get grouped for better mobile display -->
+      <div>
+        <img src="../assets/img/btn-arrow.svg" />
+      </div>
 			<div class="navbar-header">
         <img src="../assets/img/logo.png" />
 				<a class="navbar-brand" href="index.php"><?=$fullname?> Wallet</a>

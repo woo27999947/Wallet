@@ -95,10 +95,9 @@
 }
 @media (max-width:768px) {
   .wallet-index {
-    opacity: 0.95;
     float: left;
     display: block;
-    max-width: 320px;
+    max-width: 227px;
     height: 100%;
     width: calc(100% - 56px);
     padding: 56px 0;
@@ -106,7 +105,7 @@
     top: 0;
     right: -100%;
     transition: 300ms;
-    background: $Primary;
+    @include bg-gradient;
     box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.3);
     z-index: 4;
 
