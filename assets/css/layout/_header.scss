@@ -21,7 +21,10 @@
 left: 50%;
 transform: $MiddleX;
 }
-
+.navbar-header img{
+    padding: 16px 0;
+    float: left;
+}
 .navbar-brand {
   height: $NavH;
   padding: 16px 0;

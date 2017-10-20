@@ -23,13 +23,14 @@
       echo "<p class='alert-txt'>" . $error['message']; "</p>";
     }
     ?>
+       <?php if ($admin) {?><strong><font color="#18FFFF">[Admin]</font><?php }?></strong>
     <div class="row onlymobile-profile">
       <div class="col-md-12">
         <div class="profile-border">
           <div class="col-md-5 col-sm-12 col-xs-10">
           <p class="profile">
             <img src="../assets/img/ico-profile.svg">
-            <?php echo $lang['WALLET_HELLO']; ?>, <strong><?php echo $user_session; ?></strong>.  <?php if ($admin) {?><strong><font color="#18FFFF">[Admin]</font><?php }?></strong>
+            <?php echo $lang['WALLET_HELLO']; ?>,<strong><?php echo $user_session; ?></strong>.
           </p>
         </div>
 
@@ -128,23 +129,25 @@
         <div id="pwdformWrap" class="col-md-5 col-sm-6 col-xs-12">
           <section>
             <p>
-              <strong style="font-size:18px;"><?php echo $lang['WALLET_PASSUPDATE']; ?></strong>
+              <span style="font-size:18px;font-weight:400;"><?php echo $lang['WALLET_PASSUPDATE']; ?></span>
               <img class="btn-back" src="../assets/img/btn-back.svg" />
             </p>
             <form action="index.php" method="POST" class="clearfix" id="pwdform">
               <input type="hidden" name="action" value="password" />
               <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">
-              <div class="col-md-12" style="padding:0;">
-                <input type="password" class="form-control" name="oldpassword" placeholder="<?php echo $lang['WALLET_PASSUPDATEOLD']; ?>">
-              </div>
-              <div class="col-md-12" style="padding:0;">
-                <input type="password" class="form-control" name="newpassword" placeholder="<?php echo $lang['WALLET_PASSUPDATENEW']; ?>">
-              </div>
-              <div class="col-md-12" style="padding:0;">
-                <input type="password" class="form-control" name="confirmpassword" placeholder="<?php echo $lang['WALLET_PASSUPDATENEWCONF']; ?>">
+              <div class="login-border">
+                <div class="col-md-12">
+                  <input type="password" class="form-control" name="oldpassword" placeholder="<?php echo $lang['WALLET_PASSUPDATEOLD']; ?>">
+                </div>
+                <div class="col-md-12">
+                  <input type="password" class="form-control" name="newpassword" placeholder="<?php echo $lang['WALLET_PASSUPDATENEW']; ?>">
+                </div>
+                <div class="col-md-12">
+                  <input type="password" class="form-control" name="confirmpassword" placeholder="<?php echo $lang['WALLET_PASSUPDATENEWCONF']; ?>">
+                </div>
               </div>
               <p id="pwdmsg"></p>
-              <p style="font-size:1em;"><?php echo $lang['WALLET_SUPPORTNOTE']; ?></p>
+              <p style="font-size:1em;" class="pwd-text"><?php echo $lang['WALLET_SUPPORTNOTE']; ?></p>
               <div class="col-md-12" style="padding:0;">
                 <button type="submit" class="active-button btn_cyan" style="margin-top:16px;"><?php echo $lang['WALLET_PASSUPDATECONF']; ?></button>
               </div>
@@ -157,7 +160,7 @@
             <?php include 'qrcode.php';?>
             <section>
               <p>
-                <strong style="font-size:18px;"><?php echo $lang['WALLET_SEND']; ?></strong>
+                <span style="font-size:18px;font-weight: 500;"><?php echo $lang['WALLET_SEND']; ?></span>
                 <img class="btn-back" src="../assets/img/btn-back.svg" />
               </p>
               <!-- <button type="button" class="active-button btn_orange" id="donate">Donate to <?=$fullname?> wallet's owner!</button>
@@ -165,13 +168,17 @@
               <form action="index.php" method="POST" class="clearfix" id="withdrawform">
                 <input type="hidden" name="action" value="withdraw" />
                 <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">
-                <div class="col-md-12" style="padding:0;" >
-                  <img width="100%" height="240" class="hide" id="scanned-img" src="">
-                  <!-- <span id="scanned-QR"></span> -->
-                  <input type="text" class="form-control" id="scanned-QR" name="address" placeholder="<?php echo $lang['WALLET_ADDRESS']; ?>">
-                </div>
-                <div class="col-md-12" style="padding:0;">
-                  <input type="text" class="form-control" name="amount" placeholder="<?php echo $lang['WALLET_AMOUNT']; ?>">
+                <div class="login-border">
+                  <div class="col-md-12">
+                    <img width="100%" height="240" class="hide" id="scanned-img" src="">
+                    <!-- <span id="scanned-QR"></span> -->
+                    <input type="text" class="form-control" id="scanned-QR"style="
+                      font-size: 12px;
+                  " name="address" placeholder="<?php echo $lang['WALLET_ADDRESS']; ?>">
+                  </div>
+                  <div class="col-md-12">
+                    <input type="text" class="form-control" name="amount" placeholder="<?php echo $lang['WALLET_AMOUNT']; ?>">
+                  </div>
                 </div>
                 <div class="col-md-12" style="padding:0;">
                   <button type="submit" class="active-button btn_orange" style="margin-top:32px;"><?php echo $lang['WALLET_SENDCONF']; ?></button>
@@ -230,9 +237,10 @@
 
     <div class="row">
       <div id="transWrap" class="col-xs-12">
-        <p style="font-size: 18px; font-weight:800;"><?php echo $lang['WALLET_LAST10']; ?>
+        <p style="font-size: 18px; font-weight:400;"><?php echo $lang['WALLET_LAST10']; ?>
           <img class="btn-back" src="../assets/img/btn-back.svg" />
         </p>
+        <div class="login-border trans-border-padding">
         <table class="table table-bordered table-striped" id="txlist">
           <thead>
             <tr>
@@ -263,6 +271,7 @@
              ?>
           </tbody>
         </table>
+      </div>
       </div>
     </div>
 

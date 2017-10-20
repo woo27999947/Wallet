@@ -216,6 +216,9 @@
     border-bottom: 3px solid $Accent;
   }
 }
+.pwd-text{
+  margin-top: 8px;
+}
 @media (max-width:768px) {
   .wallet-btn {
     float: left;
@@ -240,7 +243,7 @@
 }
 .balance-section-line {
   width: 100%;
-  height: 2px;
+  height: 1px;
   border: 0.5px solid #fff;
 }
 @media (max-width: 768px) {
@@ -271,7 +274,9 @@
   color: $WH;
   margin: 64px 0;
 }
-
+.trans-border-padding{
+  padding: 8px;
+}
 .btn-back {
   display: none;
 }

@@ -7,13 +7,14 @@
   position: absolute;
   width: 100%;
   margin-top: 0;
-  padding: 56px 0 16px 0;
+  padding: 56px 0 56px 0;
   bottom: -360px;
   transition: 300ms;
+  border-top: 1px solid $Accent;
   left: 0;
   z-index: 2;
   // @include bg-gradient;
-  background: $PrimaryDarken;
+  background: $Gray;
   .panel{
     margin: 0;
   }
@@ -23,14 +24,14 @@
 $QRbtnSize: 72px;  //frame size
 $QRiconSize: $QRbtnSize - 32px; //icon size
 #QRCodeBtn {
+  border: 1px solid $Accent;
   position: absolute;
-  top: -144px;
+  top: -112px;
   left: 50%;
   @include middle($MiddleX);
   width: $QRbtnSize;
   height: $QRbtnSize;
   border-radius: $QRbtnSize / 2;
-  background-color: $PrimaryDarken;
   padding: ($QRbtnSize - $QRiconSize) / 2;
   transition: 300ms;
   img{
@@ -43,7 +44,9 @@ $QRiconSize: $QRbtnSize - 32px; //icon size
 #QR-Code.popup{
   bottom: 40px;
   #QRCodeBtn{
+      background-color: $Gray;
     top:($QRbtnSize / 2) * -1;
+    box-shadow: 0 8px 32px rgba(0, 0 , 0, 0.55)
   }
 }
 
@@ -53,6 +56,9 @@ $CamSize: 288px;
   height: $CamSize;
   width: $CamSize;
   margin: 0 auto;
+  border: 1px solid $Graysub !important;
+  border-radius: 12px;
+  background-color: $Primary !important;
 }
 
 .well canvas {

@@ -6,7 +6,8 @@ $BK: rgba(0, 0 ,0, 0.87) !default;
 $BKsub: rgba($BK, $colorOpacity) !default;
 $WH: rgba(255, 255, 255, 1) !default;
 $WHsub: rgba($WH, $colorOpacity) !default;
-
+$Gray:#1D2025;
+$Graysub:#383B40;
 // Primary Color
 $Primary: #0F1217;
 $PrimarySub: rgba($Primary, $colorOpacity);
