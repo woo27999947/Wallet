@@ -32,4 +32,8 @@ a {
   position: relative;
   top: 50%;
   transform: translateY(-50%) translateY(-28px);
+  -webkit-transform: translateY(-50%) translateY(-28px);
+  -moz-transform: translateY(-50%) translateY(-28px);
+  -ms-transform: translateY(-50%) translateY(-28px);
+  -o-transform: translateY(-50%) translateY(-28px);
 }
