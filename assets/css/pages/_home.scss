@@ -38,14 +38,19 @@
     opacity: 1;
   }
 }
-
+.login-border{
+  @include border;
+  float: left;
+width: 100%;
+padding: 16px 0px 32px;
+}
 .swap-loginform,
 .swap-registerform {
   cursor: pointer;
-  text-align: center;
+  text-align: left;
   height: 24px;
-  margin-top: 24px;
-
+  margin-top: 8px;
+  z-index: 1;
   p {
     @include font-style ($WH, $Regular, 14px !important);
 

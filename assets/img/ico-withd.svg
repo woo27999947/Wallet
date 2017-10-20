@@ -1,81 +1,126 @@
-<svg width="48" height="48" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="34" height="34" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>ico-withd</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(-3155 -728)">
+<g id="Canvas" transform="translate(890 -7)">
 <g id="ico-withd">
-<g id="Rectangle 2">
-<mask id="mask0_outline_ins">
-<use xlink:href="#path0_fill" fill="white" transform="translate(3155 728)"/>
-</mask>
-<g mask="url(#mask0_outline_ins)">
-<use xlink:href="#path1_stroke_2x" transform="translate(3155 728)" fill="#FFFFFF"/>
-</g>
-</g>
+<g id="Group 6">
 <g id="Group 5">
 <g id="Rectangle 2.1">
-<mask id="mask1_outline_ins">
-<use xlink:href="#path2_fill" fill="white" transform="translate(3165 738)"/>
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(-885.444 11.5555)"/>
 </mask>
-<g mask="url(#mask1_outline_ins)">
-<use xlink:href="#path3_stroke_2x" transform="translate(3165 738)" fill="#FFFFFF"/>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(-885.444 11.5555)" fill="url(#paint0_linear)"/>
 </g>
 </g>
 <g id="Rectangle 2.4">
-<use xlink:href="#path4_fill" transform="translate(3169 742)" fill="#FFFFFF"/>
-<mask id="mask2_outline_ins">
-<use xlink:href="#path4_fill" fill="white" transform="translate(3169 742)"/>
+<use xlink:href="#path2_fill" transform="translate(-881.889 15.1111)" fill="#FDBC00"/>
+<mask id="mask1_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(-881.889 15.1111)"/>
 </mask>
-<g mask="url(#mask2_outline_ins)">
-<use xlink:href="#path5_stroke_2x" transform="translate(3169 742)" fill="#FFFFFF"/>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(-881.889 15.1111)" fill="url(#paint2_linear)"/>
 </g>
 </g>
 </g>
 <g id="Group 5.2">
 <g id="Rectangle 2.1">
-<mask id="mask3_outline_ins">
-<use xlink:href="#path2_fill" fill="white" transform="translate(3165 754)"/>
+<mask id="mask2_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(-885.444 25.7778)"/>
 </mask>
-<g mask="url(#mask3_outline_ins)">
-<use xlink:href="#path3_stroke_2x" transform="translate(3165 754)" fill="#FFFFFF"/>
+<g mask="url(#mask2_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(-885.444 25.7778)" fill="url(#paint3_linear)"/>
 </g>
 </g>
 <g id="Rectangle 2.4">
-<use xlink:href="#path4_fill" transform="translate(3169 758)" fill="#FFFFFF"/>
-<mask id="mask4_outline_ins">
-<use xlink:href="#path4_fill" fill="white" transform="translate(3169 758)"/>
+<use xlink:href="#path2_fill" transform="translate(-881.889 29.3333)" fill="#FDBC00"/>
+<mask id="mask3_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(-881.889 29.3333)"/>
 </mask>
-<g mask="url(#mask4_outline_ins)">
-<use xlink:href="#path5_stroke_2x" transform="translate(3169 758)" fill="#FFFFFF"/>
+<g mask="url(#mask3_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(-881.889 29.3333)" fill="url(#paint5_linear)"/>
 </g>
 </g>
 </g>
 <g id="Group 5.1">
 <g id="Rectangle 2.1">
-<mask id="mask5_outline_ins">
-<use xlink:href="#path2_fill" fill="white" transform="translate(3181 738)"/>
+<mask id="mask4_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(-871.222 11.5556)"/>
 </mask>
-<g mask="url(#mask5_outline_ins)">
-<use xlink:href="#path3_stroke_2x" transform="translate(3181 738)" fill="#FFFFFF"/>
+<g mask="url(#mask4_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(-871.222 11.5556)" fill="url(#paint6_linear)"/>
 </g>
 </g>
 <g id="Rectangle 2.4">
-<use xlink:href="#path4_fill" transform="translate(3185 742)" fill="#FFFFFF"/>
-<mask id="mask6_outline_ins">
-<use xlink:href="#path4_fill" fill="white" transform="translate(3185 742)"/>
+<use xlink:href="#path2_fill" transform="translate(-867.667 15.1111)" fill="#FDBC00"/>
+<mask id="mask5_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(-867.667 15.1111)"/>
 </mask>
-<g mask="url(#mask6_outline_ins)">
-<use xlink:href="#path5_stroke_2x" transform="translate(3185 742)" fill="#FFFFFF"/>
+<g mask="url(#mask5_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(-867.667 15.1111)" fill="url(#paint8_linear)"/>
 </g>
 </g>
+</g>
+</g>
+<g id="Vector">
+<use xlink:href="#path4_stroke" transform="translate(-889 8)" fill="url(#paint9_linear)"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path4_stroke" transform="matrix(6.12323e-17 1 -1 6.12323e-17 -857 8)" fill="url(#paint10_linear)"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path4_stroke" transform="matrix(-1 1.22465e-16 -1.22465e-16 -1 -857 40)" fill="url(#paint11_linear)"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path4_stroke" transform="matrix(-1.83697e-16 -1 1 -1.83697e-16 -889 40)" fill="url(#paint12_linear)"/>
 </g>
 </g>
 </g>
 <defs>
-<path id="path0_fill" d="M 0 24C 0 10.7452 10.7452 0 24 0C 37.2548 0 48 10.7452 48 24C 48 37.2548 37.2548 48 24 48C 10.7452 48 0 37.2548 0 24Z"/>
-<path id="path1_stroke_2x" d="M 24 -1C 10.1929 -1 -1 10.1929 -1 24L 1 24C 1 11.2975 11.2975 1 24 1L 24 -1ZM 24 1C 36.7025 1 47 11.2975 47 24L 49 24C 49 10.1929 37.8071 -1 24 -1L 24 1ZM 47 24C 47 36.7025 36.7025 47 24 47L 24 49C 37.8071 49 49 37.8071 49 24L 47 24ZM 24 47C 11.2975 47 1 36.7025 1 24L -1 24C -1 37.8071 10.1929 49 24 49L 24 47Z"/>
-<path id="path2_fill" d="M 0 2C 0 0.895431 0.895431 0 2 0L 10 0C 11.1046 0 12 0.895431 12 2L 12 10C 12 11.1046 11.1046 12 10 12L 2 12C 0.895431 12 0 11.1046 0 10L 0 2Z"/>
-<path id="path3_stroke_2x" d="M 2 1L 10 1L 10 -1L 2 -1L 2 1ZM 11 2L 11 10L 13 10L 13 2L 11 2ZM 10 11L 2 11L 2 13L 10 13L 10 11ZM 1 10L 1 2L -1 2L -1 10L 1 10ZM 2 -1C 0.343146 -1 -1 0.343146 -1 2L 1 2C 1 1.44772 1.44772 1 2 1L 2 -1ZM 10 1C 10.5523 1 11 1.44772 11 2L 13 2C 13 0.343146 11.6569 -1 10 -1L 10 1ZM 11 10C 11 10.5523 10.5523 11 10 11L 10 13C 11.6569 13 13 11.6569 13 10L 11 10ZM 2 11C 1.44772 11 1 10.5523 1 10L -1 10C -1 11.6569 0.343146 13 2 13L 2 11Z"/>
-<path id="path4_fill" d="M 0 0L 4 0L 4 4L 0 4L 0 0Z"/>
-<path id="path5_stroke_2x" d="M 0 0L 0 -1L -1 -1L -1 0L 0 0ZM 4 0L 5 0L 5 -1L 4 -1L 4 0ZM 4 4L 4 5L 5 5L 5 4L 4 4ZM 0 4L -1 4L -1 5L 0 5L 0 4ZM 0 1L 4 1L 4 -1L 0 -1L 0 1ZM 3 0L 3 4L 5 4L 5 0L 3 0ZM 4 3L 0 3L 0 5L 4 5L 4 3ZM 1 4L 1 0L -1 0L -1 4L 1 4Z"/>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(6.53145e-16 10.6667 -10.6667 6.53145e-16 10.6667 -6.53145e-16)">
+<stop offset="0" stop-color="#FF9500"/>
+<stop offset="1" stop-color="#FDBC00"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(2.17715e-16 3.55556 -3.55556 2.17715e-16 3.55556 -2.17715e-16)">
+<stop offset="0" stop-color="#FF9500"/>
+<stop offset="1" stop-color="#FDBC00"/>
+</linearGradient>
+<linearGradient id="paint3_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(6.53145e-16 10.6667 -10.6667 6.53145e-16 10.6667 -6.53145e-16)">
+<stop offset="0" stop-color="#FF9500"/>
+<stop offset="1" stop-color="#FDBC00"/>
+</linearGradient>
+<linearGradient id="paint5_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(2.17715e-16 3.55556 -3.55556 2.17715e-16 3.55556 -2.17715e-16)">
+<stop offset="0" stop-color="#FF9500"/>
+<stop offset="1" stop-color="#FDBC00"/>
+</linearGradient>
+<linearGradient id="paint6_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(6.53145e-16 10.6667 -10.6667 6.53145e-16 10.6667 -6.53145e-16)">
+<stop offset="0" stop-color="#FF9500"/>
+<stop offset="1" stop-color="#FDBC00"/>
+</linearGradient>
+<linearGradient id="paint8_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(2.17715e-16 3.55556 -3.55556 2.17715e-16 3.55556 -2.17715e-16)">
+<stop offset="0" stop-color="#FF9500"/>
+<stop offset="1" stop-color="#FDBC00"/>
+</linearGradient>
+<linearGradient id="paint9_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(4.3543e-16 7.11111 -7.11111 4.3543e-16 7.11111 -4.3543e-16)">
+<stop offset="0" stop-color="#FF9500"/>
+<stop offset="1" stop-color="#FDBC00"/>
+</linearGradient>
+<linearGradient id="paint10_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(4.3543e-16 7.11111 -7.11111 4.3543e-16 7.11111 -4.3543e-16)">
+<stop offset="0" stop-color="#FF9500"/>
+<stop offset="1" stop-color="#FDBC00"/>
+</linearGradient>
+<linearGradient id="paint11_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(4.3543e-16 7.11111 -7.11111 4.3543e-16 7.11111 -4.3543e-16)">
+<stop offset="0" stop-color="#FF9500"/>
+<stop offset="1" stop-color="#FDBC00"/>
+</linearGradient>
+<linearGradient id="paint12_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(4.3543e-16 7.11111 -7.11111 4.3543e-16 7.11111 -4.3543e-16)">
+<stop offset="0" stop-color="#FF9500"/>
+<stop offset="1" stop-color="#FDBC00"/>
+</linearGradient>
+<path id="path0_fill" d="M 0 0L 10.6667 0L 10.6667 10.6667L 0 10.6667L 0 0Z"/>
+<path id="path1_stroke_2x" d="M 0 0L 0 -1L -1 -1L -1 0L 0 0ZM 10.6667 0L 11.6667 0L 11.6667 -1L 10.6667 -1L 10.6667 0ZM 10.6667 10.6667L 10.6667 11.6667L 11.6667 11.6667L 11.6667 10.6667L 10.6667 10.6667ZM 0 10.6667L -1 10.6667L -1 11.6667L 0 11.6667L 0 10.6667ZM 0 1L 10.6667 1L 10.6667 -1L 0 -1L 0 1ZM 9.66667 0L 9.66667 10.6667L 11.6667 10.6667L 11.6667 0L 9.66667 0ZM 10.6667 9.66667L 0 9.66667L 0 11.6667L 10.6667 11.6667L 10.6667 9.66667ZM 1 10.6667L 1 0L -1 0L -1 10.6667L 1 10.6667Z"/>
+<path id="path2_fill" d="M 0 0L 3.55556 0L 3.55556 3.55556L 0 3.55556L 0 0Z"/>
+<path id="path3_stroke_2x" d="M 0 0L 0 -1L -1 -1L -1 0L 0 0ZM 3.55556 0L 4.55556 0L 4.55556 -1L 3.55556 -1L 3.55556 0ZM 3.55556 3.55556L 3.55556 4.55556L 4.55556 4.55556L 4.55556 3.55556L 3.55556 3.55556ZM 0 3.55556L -1 3.55556L -1 4.55556L 0 4.55556L 0 3.55556ZM 0 1L 3.55556 1L 3.55556 -1L 0 -1L 0 1ZM 2.55556 0L 2.55556 3.55556L 4.55556 3.55556L 4.55556 0L 2.55556 0ZM 3.55556 2.55556L 0 2.55556L 0 4.55556L 3.55556 4.55556L 3.55556 2.55556ZM 1 3.55556L 1 0L -1 0L -1 3.55556L 1 3.55556Z"/>
+<path id="path4_stroke" d="M 0.5 7.11111L 0.5 2L -0.5 2L -0.5 7.11111L 0.5 7.11111ZM 2 0.5L 7.11111 0.5L 7.11111 -0.5L 2 -0.5L 2 0.5ZM 0.5 2C 0.5 1.17157 1.17157 0.5 2 0.5L 2 -0.5C 0.619288 -0.5 -0.5 0.619288 -0.5 2L 0.5 2Z"/>
 </defs>
 </svg>

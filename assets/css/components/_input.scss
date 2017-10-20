@@ -36,7 +36,7 @@
   border-bottom: 1px solid $WH;
   box-shadow: none;
   transition: 300ms;
-  @include font-style ($WH, $Regular, 14px);
+  @include font-style ($Accent, $Regular, 16px);
 }
 
 .form-control:focus, .form-control:active {

@@ -28,7 +28,11 @@
   width: $width;
   height: $height;
 }
-
+@mixin border{
+  background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 12px;
+}
 // Prefix
 @mixin prefix($property, $value, $prefixes: ()) {
   @each $prefix in $prefixes {
@@ -43,9 +47,13 @@
 // }
 
 @mixin bg-gradient {
-  background: $Primary;
+  background: $Accent;
   background: -webkit-linear-gradient(to top right, $Second,$Accent);
   background: -o-linear-gradient(to top left, $Second,$Accent);
   background: -moz-linear-gradient(to top left, $Second,$Accent);
   background: linear-gradient(to top left, $Second,$Accent);
+}
+
+@mixin no-select {
+  background: rgba(255,255,255,0);
 }

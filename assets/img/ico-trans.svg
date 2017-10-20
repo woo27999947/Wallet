@@ -1,35 +1,35 @@
 <svg width="32" height="32" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>ico-trans</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(-1362 -528)">
+<g id="Canvas" transform="translate(738 -8)">
 <g id="ico-trans">
 <g id="Group 2">
 <g id="Rectangle 2.1">
 <mask id="mask0_outline_ins">
-<use xlink:href="#path0_fill" fill="white" transform="translate(1362 528)"/>
+<use xlink:href="#path0_fill" fill="white" transform="translate(-738 8)"/>
 </mask>
 <g mask="url(#mask0_outline_ins)">
-<use xlink:href="#path1_stroke_2x" transform="translate(1362 528)" fill="#FFFFFF"/>
+<use xlink:href="#path1_stroke_2x" transform="translate(-738 8)" fill="url(#paint0_linear)"/>
 </g>
 </g>
 <g id="Vector">
-<use xlink:href="#path2_stroke" transform="translate(1368 537)" fill="#FFFFFF"/>
+<use xlink:href="#path2_stroke" transform="translate(-732 17)" fill="url(#paint1_linear)"/>
 </g>
 <g id="Group">
 <g id="Group">
 <g id="Rectangle 10">
-<use xlink:href="#path3_stroke" transform="matrix(-0.999104 0.0423327 -0.0423327 0.999104 1375.27 546.819)" fill="#FFFFFF"/>
+<use xlink:href="#path3_stroke" transform="matrix(-0.999104 0.0423327 -0.0423327 0.999104 -724.733 26.8192)" fill="url(#paint2_linear)"/>
 </g>
 <g id="Line 2">
-<use xlink:href="#path4_stroke" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 1375.13 551.013)" fill="#FFFFFF"/>
+<use xlink:href="#path4_stroke" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 -724.872 31.0126)" fill="url(#paint3_linear)"/>
 </g>
 </g>
 <g id="Group">
 <g id="Rectangle 10">
-<use xlink:href="#path3_stroke" transform="matrix(0.999104 -0.0423327 0.0423327 -0.999104 1380.79 549.24)" fill="#FFFFFF"/>
+<use xlink:href="#path3_stroke" transform="matrix(0.999104 -0.0423327 0.0423327 -0.999104 -719.208 29.2397)" fill="url(#paint4_linear)"/>
 </g>
 <g id="Line 2">
-<use xlink:href="#path4_stroke" transform="matrix(-0.707107 0.707107 0.707107 0.707107 1380.93 545.046)" fill="#FFFFFF"/>
+<use xlink:href="#path4_stroke" transform="matrix(-0.707107 0.707107 0.707107 0.707107 -719.068 25.0463)" fill="url(#paint5_linear)"/>
 </g>
 </g>
 </g>
@@ -37,7 +37,31 @@
 </g>
 </g>
 <defs>
-<path id="path0_fill" d="M 0 16C 0 7.16344 7.16344 0 16 0L 16 0C 24.8366 0 32 7.16344 32 16L 32 16C 32 24.8366 24.8366 32 16 32L 16 32C 7.16344 32 0 24.8366 0 16L 0 16Z"/>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.95943e-15 32 -32 1.95943e-15 32 -1.95943e-15)">
+<stop offset="0" stop-color="#FF9500"/>
+<stop offset="1" stop-color="#FDBC00"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.22465e-15 19 -20 1.16341e-15 20 -1.16341e-15)">
+<stop offset="0" stop-color="#FF9500"/>
+<stop offset="1" stop-color="#FDBC00"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.31613e-16 2.1494 -2.1494 1.31613e-16 2.1494 -1.31613e-16)">
+<stop offset="0" stop-color="#FF9500"/>
+<stop offset="1" stop-color="#FDBC00"/>
+</linearGradient>
+<linearGradient id="paint3_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(5.15877e-16 2.86666 -8.42491 1.75532e-16 8.42491 -1.75532e-16)">
+<stop offset="0" stop-color="#FF9500"/>
+<stop offset="1" stop-color="#FDBC00"/>
+</linearGradient>
+<linearGradient id="paint4_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.31613e-16 2.1494 -2.1494 1.31613e-16 2.1494 -1.31613e-16)">
+<stop offset="0" stop-color="#FF9500"/>
+<stop offset="1" stop-color="#FDBC00"/>
+</linearGradient>
+<linearGradient id="paint5_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(5.15877e-16 2.86666 -8.42491 1.75532e-16 8.42491 -1.75532e-16)">
+<stop offset="0" stop-color="#FF9500"/>
+<stop offset="1" stop-color="#FDBC00"/>
+</linearGradient>
+<path id="path0_fill" d="M 0 16C 0 7.16344 7.16344 0 16 0C 24.8366 0 32 7.16344 32 16C 32 24.8366 24.8366 32 16 32C 7.16344 32 0 24.8366 0 16Z"/>
 <path id="path1_stroke_2x" d="M 16 -1C 6.61116 -1 -1 6.61116 -1 16L 1 16C 1 7.71573 7.71573 1 16 1L 16 -1ZM 16 1C 24.2843 1 31 7.71573 31 16L 33 16C 33 6.61116 25.3888 -1 16 -1L 16 1ZM 31 16C 31 24.2843 24.2843 31 16 31L 16 33C 25.3888 33 33 25.3888 33 16L 31 16ZM 16 31C 7.71573 31 1 24.2843 1 16L -1 16C -1 25.3888 6.61116 33 16 33L 16 31Z"/>
 <path id="path2_stroke" d="M 0 0L 0.353553 -0.353553L -0.5 -1.20711L -0.5 0L 0 0ZM 2.5 2.5L 2.14645 2.85355L 2.5 3.20711L 2.85355 2.85355L 2.5 2.5ZM 5 0L 5.35355 -0.353553L 5 -0.707107L 4.64645 -0.353553L 5 0ZM 7.5 2.5L 7.14645 2.85355L 7.5 3.20711L 7.85355 2.85355L 7.5 2.5ZM 10 0L 10.3536 -0.353553L 10 -0.707107L 9.64645 -0.353553L 10 0ZM 12.5 2.5L 12.1464 2.85355L 12.5 3.20711L 12.8536 2.85355L 12.5 2.5ZM 15 0L 15.3536 -0.353553L 15 -0.707107L 14.6464 -0.353553L 15 0ZM 17.5 2.5L 17.1464 2.85355L 17.5 3.20711L 17.8536 2.85355L 17.5 2.5ZM 20 0L 20.5 0L 20.5 -1.20711L 19.6464 -0.353553L 20 0ZM 0.5 19L 0.5 0L -0.5 0L -0.5 19L 0.5 19ZM -0.353553 0.353553L 2.14645 2.85355L 2.85355 2.14645L 0.353553 -0.353553L -0.353553 0.353553ZM 2.85355 2.85355L 5.35355 0.353553L 4.64645 -0.353553L 2.14645 2.14645L 2.85355 2.85355ZM 4.64645 0.353553L 7.14645 2.85355L 7.85355 2.14645L 5.35355 -0.353553L 4.64645 0.353553ZM 7.85355 2.85355L 10.3536 0.353553L 9.64645 -0.353553L 7.14645 2.14645L 7.85355 2.85355ZM 9.64645 0.353553L 12.1464 2.85355L 12.8536 2.14645L 10.3536 -0.353553L 9.64645 0.353553ZM 12.8536 2.85355L 15.3536 0.353553L 14.6464 -0.353553L 12.1464 2.14645L 12.8536 2.85355ZM 14.6464 0.353553L 17.1464 2.85355L 17.8536 2.14645L 15.3536 -0.353553L 14.6464 0.353553ZM 17.8536 2.85355L 20.3536 0.353553L 19.6464 -0.353553L 17.1464 2.14645L 17.8536 2.85355ZM 19.5 0L 19.5 19L 20.5 19L 20.5 0L 19.5 0Z"/>
 <path id="path3_stroke" d="M 2.6494 0C 2.6494 -0.276142 2.42554 -0.5 2.1494 -0.5C 1.87326 -0.5 1.6494 -0.276142 1.6494 0L 2.6494 0ZM 2.1494 2.1494L 2.1494 2.6494L 2.6494 2.6494L 2.6494 2.1494L 2.1494 2.1494ZM 0 1.6494C -0.276142 1.6494 -0.5 1.87326 -0.5 2.1494C -0.5 2.42554 -0.276142 2.6494 0 2.6494L 0 1.6494ZM 1.6494 0L 1.6494 2.1494L 2.6494 2.1494L 2.6494 0L 1.6494 0ZM 2.1494 1.6494L 0 1.6494L 0 2.6494L 2.1494 2.6494L 2.1494 1.6494Z"/>

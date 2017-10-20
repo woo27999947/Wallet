@@ -21,19 +21,19 @@
 }
 
 .btn_orange {
-  background-color: $Orange;
-  box-shadow: 0 16px 12px $OrangeSub;
+@include bg-gradient;
   &:hover{
-    background-color: $OrangeDarken;
-    box-shadow: 0 32px 32px $OrangeSub;
+    @include no-select;
+    box-shadow: 0 0 4px $Accent;
+    border: 1px solid $Accent !important;
   }
 }
 
 .btn_cyan {
-  background-color: $Cyan;
-  box-shadow: 0 16px 12px $CyanSub;
-  &:hover{
-    background-color: $CyanDarken;
-    box-shadow: 0 32px 32px $CyanSub;
+  @include bg-gradient;
+    &:hover{
+      @include no-select;
+      box-shadow: 0 0 4px $Accent;
+      border: 1px solid $Accent !important;
+    }
   }
-}

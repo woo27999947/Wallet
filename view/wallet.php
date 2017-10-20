@@ -24,8 +24,9 @@
     }
     ?>
     <div class="row onlymobile-profile">
-      <div class="col-md-12 pl-pr-none">
-        <div class="col-md-5 col-sm-12 col-xs-10">
+      <div class="col-md-12">
+        <div class="profile-border">
+          <div class="col-md-5 col-sm-12 col-xs-10">
           <p class="profile">
             <img src="../assets/img/ico-profile.svg">
             <?php echo $lang['WALLET_HELLO']; ?>, <strong><?php echo $user_session; ?></strong>.  <?php if ($admin) {?><strong><font color="#18FFFF">[Admin]</font><?php }?></strong>
@@ -74,11 +75,13 @@
         </div>
       </div>
     </div>
+  </div>
 
     <div class="row onlymobile-balance">
       <div class="col-md-12">
         <div class="balance-section">
           <p style="font-size:15px;"><?php echo $lang['WALLET_BALANCE']; ?><br>
+            <div class="balance-section-line"></div>
             <strong id="balance" style="font-size:24px;"><?php echo satoshitize($balance);?></strong> <?=$short?>
           </p>
         </div>

@@ -1,28 +1,26 @@
-<svg width="24" height="33" viewBox="0 0 24 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="31" height="34" viewBox="0 0 31 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>ico-uppw</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(-1205 -527)">
+<g id="Canvas" transform="translate(888 113)">
 <g id="ico-uppw">
-<g id="Ellipse 6.1">
-<use xlink:href="#path0_stroke" transform="translate(1209 528)" fill="#FFFFFF"/>
+<g id="Vector">
+<use xlink:href="#path0_stroke" transform="translate(-887 -97.6)" fill="url(#paint0_linear)"/>
 </g>
-<g id="Ellipse 6">
-<mask id="mask0_outline_ins">
-<use xlink:href="#path1_fill" fill="white" transform="translate(1205 536)"/>
-</mask>
-<g mask="url(#mask0_outline_ins)">
-<use xlink:href="#path2_stroke_2x" transform="translate(1205 536)" fill="#FFFFFF"/>
-</g>
-</g>
-<g id="Union">
-<use xlink:href="#path3_fill" transform="translate(1214 544)" fill="#FFFFFF"/>
+<g id="Vector">
+<use xlink:href="#path1_stroke" transform="translate(-880.6 -112)" fill="url(#paint1_linear)"/>
 </g>
 </g>
 </g>
 <defs>
-<path id="path0_stroke" d="M 0.5 7.72534C 0.5 3.75122 3.84126 0.5 8 0.5L 8 -0.5C 3.32219 -0.5 -0.5 3.16629 -0.5 7.72534L 0.5 7.72534ZM 8 0.5C 12.1587 0.5 15.5 3.75122 15.5 7.72534L 16.5 7.72534C 16.5 3.16629 12.6778 -0.5 8 -0.5L 8 0.5ZM 15.5 7.72534C 15.5035 8.83651 15.2599 9.83662 14.798 10.7817L 15.6976 11.2183C 16.2009 10.1749 16.4965 8.9554 16.5 7.72534L 15.5 7.72534ZM 1.20199 10.7817C 0.740147 9.83662 0.496454 8.83651 0.5 7.72534L -0.5 7.72534C -0.496454 8.9554 -0.200897 10.1749 0.302357 11.2183L 1.20199 10.7817Z"/>
-<path id="path1_fill" d="M 24 12C 24 18.6274 18.6274 24 12 24C 5.37258 24 0 18.6274 0 12C 0 5.37258 5.37258 0 12 0C 18.6274 0 24 5.37258 24 12Z"/>
-<path id="path2_stroke_2x" d="M 23 12C 23 18.0751 18.0751 23 12 23L 12 25C 19.1797 25 25 19.1797 25 12L 23 12ZM 12 23C 5.92487 23 1 18.0751 1 12L -1 12C -1 19.1797 4.8203 25 12 25L 12 23ZM 1 12C 1 5.92487 5.92487 1 12 1L 12 -1C 4.8203 -1 -1 4.8203 -1 12L 1 12ZM 12 1C 18.0751 1 23 5.92487 23 12L 25 12C 25 4.8203 19.1797 -1 12 -1L 12 1Z"/>
-<path id="path3_fill" fill-rule="evenodd" d="M 4 5.82928C 5.16516 5.41748 6 4.30621 6 3C 6 1.34314 4.65686 0 3 0C 1.34314 0 0 1.34314 0 3C 0 4.30621 0.834839 5.41748 2 5.82928L 2 8C 2 8.55231 2.44775 9 3 9C 3.55225 9 4 8.55231 4 8L 4 5.82928Z"/>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.76349e-15 17.6 -28.8 1.07769e-15 28.8 -1.07769e-15)">
+<stop offset="0" stop-color="#FF9500"/>
+<stop offset="1" stop-color="#FDBC00"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(9.79717e-16 14.4 -16 8.81746e-16 16 -8.81746e-16)">
+<stop offset="0" stop-color="#FF9500"/>
+<stop offset="1" stop-color="#FDBC00"/>
+</linearGradient>
+<path id="path0_stroke" d="M 3.2 0.5L 25.6 0.5L 25.6 -0.5L 3.2 -0.5L 3.2 0.5ZM 25.6 0.5C 27.0912 0.5 28.3 1.70883 28.3 3.2L 29.3 3.2C 29.3 1.15655 27.6435 -0.5 25.6 -0.5L 25.6 0.5ZM 28.3 3.2L 28.3 14.4L 29.3 14.4L 29.3 3.2L 28.3 3.2ZM 28.3 14.4C 28.3 15.8912 27.0912 17.1 25.6 17.1L 25.6 18.1C 27.6435 18.1 29.3 16.4435 29.3 14.4L 28.3 14.4ZM 25.6 17.1L 3.2 17.1L 3.2 18.1L 25.6 18.1L 25.6 17.1ZM 3.2 17.1C 1.70883 17.1 0.5 15.8912 0.5 14.4L -0.5 14.4C -0.5 16.4435 1.15655 18.1 3.2 18.1L 3.2 17.1ZM 0.5 14.4L 0.5 3.2L -0.5 3.2L -0.5 14.4L 0.5 14.4ZM 0.5 3.2C 0.5 1.70883 1.70883 0.5 3.2 0.5L 3.2 -0.5C 1.15655 -0.5 -0.5 1.15655 -0.5 3.2L 0.5 3.2Z"/>
+<path id="path1_stroke" d="M -0.5 14.4C -0.5 14.6761 -0.276142 14.9 0 14.9C 0.276142 14.9 0.5 14.6761 0.5 14.4L -0.5 14.4ZM 0 8L -0.5 8L 0 8ZM 8 -2.84217e-15L 8 -0.5L 8 -2.84217e-15ZM 15.5 14.4C 15.5 14.6761 15.7239 14.9 16 14.9C 16.2761 14.9 16.5 14.6761 16.5 14.4L 15.5 14.4ZM 0.5 14.4L 0.5 8L -0.5 8L -0.5 14.4L 0.5 14.4ZM 0.5 8C 0.5 6.01088 1.29018 4.10322 2.6967 2.6967L 1.98959 1.98959C 0.395533 3.58365 -0.5 5.74566 -0.5 8L 0.5 8ZM 2.6967 2.6967C 4.10322 1.29018 6.01088 0.5 8 0.5L 8 -0.5C 5.74566 -0.5 3.58365 0.395533 1.98959 1.98959L 2.6967 2.6967ZM 8 0.5C 9.98912 0.5 11.8968 1.29018 13.3033 2.6967L 14.0104 1.98959C 12.4163 0.395533 10.2543 -0.5 8 -0.5L 8 0.5ZM 13.3033 2.6967C 14.7098 4.10322 15.5 6.01088 15.5 8L 16.5 8C 16.5 5.74566 15.6045 3.58365 14.0104 1.98959L 13.3033 2.6967ZM 15.5 8L 15.5 14.4L 16.5 14.4L 16.5 8L 15.5 8Z"/>
 </defs>
 </svg>
